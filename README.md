@@ -1,1 +1,2 @@
-# who-
+# who?
+Simple vector comparison method
