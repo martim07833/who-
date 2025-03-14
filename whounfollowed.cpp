@@ -46,6 +46,18 @@ void inputcaller() {
 
     vector<string> result = comparison(myfollowers, myfollowings);
     outputcaller(result);
+    if(result.size() == 0){
+        cout << "Well seems all is good!" << endl;
+    }
+    else{
+        cout <<'\n' << "Omg girly thinks they are beyoncé...... sis i'm dead as a chile" << endl;
+    }
+    cout << "Would you like to leave?" << '\n' << "Yes/No" << endl;
+    getline(cin, line);
+    if(line == "Yes" || line == "y" || line == "yes" || line == "YES" || line == "Y" || line == "yEs"){}
+    else if(line == "no" || line == "NO" || line == "n" || line == "N" || "No"){
+        inputcaller();
+    }
 }
 
 int main() {
